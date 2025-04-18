@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nevtrox-Login</title>
+<link rel="Website icon" href="NevtroxIcon_withoutBG.png">
+<script src="https://cdn.tailwindcss.com/3.4.16"></script>
+<script>tailwind.config={theme:{extend:{colors:{primary:'#4CAF50',secondary:'#8B5D33'},borderRadius:{'none':'0px','sm':'4px',DEFAULT:'8px','md':'12px','lg':'16px','xl':'20px','2xl':'24px','3xl':'32px','full':'9999px','button':'8px'}}}}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet">
+<style>
+:where([class^="ri-"])::before { content: "\f3c2"; }
+body {
+background-color: #1a1a1a;
+color: #e0e0e0;
+font-family: 'VT323', monospace;
+}
+.minecraft-btn {
+background-color: #545454;
+border: 2px solid #000;
+box-shadow: inset 0 5px 0 0 rgba(255, 255, 255, 0.2), inset 0 -5px 0 0 rgba(0, 0, 0, 0.3);
+transition: all 0.1s;
+}
+.minecraft-btn:hover {
+background-color: #6b6b6b;
+}
+.minecraft-btn:active {
+box-shadow: inset 0 2px 0 0 rgba(255, 255, 255, 0.2), inset 0 -2px 0 0 rgba(0, 0, 0, 0.3);
+transform: translateY(2px);
+}
+.team-card {
+background-color: #2c2c2c;
+border: 3px solid #3a3a3a;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+transition: transform 0.3s, box-shadow 0.3s;
+}
+.team-card:hover {
+transform: translateY(-5px);
+box-shadow: 0 10px 15px rgba(0, 0, 0, 0.6);
+border-color: #4CAF50;
+}
+.custom-checkbox {
+appearance: none;
+width: 20px;
+height: 20px;
+background-color: #2c2c2c;
+border: 2px solid #545454;
+cursor: pointer;
+position: relative;
+}
+.custom-checkbox:checked {
+background-color: #4CAF50;
+border-color: #4CAF50;
+}
+.custom-checkbox:checked:after {
+content: '';
+position: absolute;
+left: 6px;
+top: 2px;
+width: 5px;
+height: 10px;
+border: solid white;
+border-width: 0 2px 2px 0;
+transform: rotate(45deg);
+}
+.custom-radio {
+appearance: none;
+width: 20px;
+height: 20px;
+background-color: #2c2c2c;
+border: 2px solid #545454;
+border-radius: 50%;
+cursor: pointer;
+position: relative;
+}
+.custom-radio:checked {
+border-color: #4CAF50;
+}
+.custom-radio:checked:after {
+content: '';
+position: absolute;
+width: 10px;
+height: 10px;
+background-color: #4CAF50;
+border-radius: 50%;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+.custom-switch {
+position: relative;
+display: inline-block;
+width: 50px;
+height: 24px;
+}
+.custom-switch input {
+opacity: 0;
+width: 0;
+height: 0;
+}
+.slider {
+position: absolute;
+cursor: pointer;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+background-color: #2c2c2c;
+transition: .4s;
+border-radius: 24px;
+border: 2px solid #545454;
+}
+.slider:before {
+position: absolute;
+content: "";
+height: 16px;
+width: 16px;
+left: 4px;
+bottom: 2px;
+background-color: #e0e0e0;
+transition: .4s;
+border-radius: 50%;
+}
+input:checked + .slider {
+background-color: #4CAF50;
+border-color: #4CAF50;
+}
+input:checked + .slider:before {
+transform: translateX(24px);
+}
+.pixel-border {
+position: relative;
+z-index: 1;
+}
+.pixel-border:before {
+content: "";
+position: absolute;
+z-index: -1;
+top: 5px;
+left: 5px;
+right: -5px;
+bottom: -5px;
+border: 3px solid #3a3a3a;
+}
+</style>
+</head>
+<body>
+<!-- Header mit Navigation -->
+<header class="bg-[#1a1a1a] border-b-4 border-primary sticky top-0 z-50">
+<div class="container mx-auto px-4 py-3 flex justify-between items-center">
+<a href="index.html" class="text-3xl font-['Pacifico'] text-white">Nevtrox</a>
+<!-- Mobile Menu Button -->
+<button id="mobile-menu-button" class="lg:hidden w-10 h-10 flex items-center justify-center text-white">
+<i class="ri-menu-line ri-2x"></i>
+</button>
+<!-- Desktop Navigation -->
+<nav class="hidden lg:flex space-x-8 text-xl">
+<a href="index.html" class="text-white hover:text-primary transition-colors">Zurück zur Staterseite</a>
+</nav>
+</div>
