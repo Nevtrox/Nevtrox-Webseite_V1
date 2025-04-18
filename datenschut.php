@@ -100,7 +100,7 @@
         <!-- Desktop Navigation -->
         <nav class="hidden lg:flex space-x-8 text-xl">
           <a
-            href="index.html"
+            href="./"
             data-readdy="true"
             class="text-white hover:text-primary transition-colors"
             >Zurück zur Hauptseite</a
@@ -116,7 +116,7 @@
           class="container mx-auto px-4 py-2 flex flex-col space-y-3 text-xl"
         >
           <a
-            href="index.html"
+            href="./"
             data-readdy="true"
             class="text-white hover:text-primary transition-colors py-2"
             >Zurück zur Hauptseite</a
@@ -130,7 +130,7 @@
       <!-- Zurück-Button und Titel -->
       <div class="flex flex-col md:flex-row justify-between items-center mb-10">
         <a
-          href="index.html"
+          href="index.php"
           data-readdy="true"
           class="minecraft-btn text-white px-4 py-2 text-xl !rounded-button whitespace-nowrap mb-4 md:mb-0 flex items-center"
         >
@@ -766,7 +766,7 @@
                 2. Das Serverteam behält sich das Recht vor, Spieler ohne
                 Vorwarnung vom Server zu verweisen.
               </p>
-              <a href="AGB.html" class="text-primary hover:underline"
+              <a href="AGB.php" class="text-primary hover:underline"
                 >Vollständige AGB lesen</a
               >
             </div>

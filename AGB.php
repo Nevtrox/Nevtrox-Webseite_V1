@@ -94,10 +94,10 @@
         class="container mx-auto px-4 py-3 flex justify-between items-center"
       >
         <a
-          href=" "
+          href="./"
           data-readdy="true"
           class="text-3xl font-['Pacifico'] text-white"
-          >logo</a
+          >Nevtrox</a
         >
         <!-- Mobile Menu Button -->
         <button
@@ -109,13 +109,13 @@
         <!-- Desktop Navigation -->
         <nav class="hidden lg:flex space-x-8 text-xl">
             <a
-            href="index.html"
+            href="./"
             data-readdy="true"
             class="text-white hover:text-primary transition-colors"
             >Staterseite</a
           >         
              <a
-            href="index.html"
+            href="datenschut.php"
             data-readdy="true"
             class="text-white hover:text-primary transition-colors"
             >Datenschutz</a
@@ -131,34 +131,16 @@
           class="container mx-auto px-4 py-2 flex flex-col space-y-3 text-xl"
         >
           <a
-            href="https://readdy.ai/home/a30a5316-c033-4f23-96b8-81231035a534/5b044237-0ef5-4c6d-b743-3e113223aac9#team"
+            href="./"
             data-readdy="true"
             class="text-white hover:text-primary transition-colors py-2"
-            >Team</a
+            >Staterseite</a
           >
           <a
-            href="https://readdy.ai/home/a30a5316-c033-4f23-96b8-81231035a534/5b044237-0ef5-4c6d-b743-3e113223aac9#bewerbung"
+            href="datenschut.php"
             data-readdy="true"
             class="text-white hover:text-primary transition-colors py-2"
-            >Bewerbung</a
-          >
-          <a
-            href="https://readdy.ai/home/a30a5316-c033-4f23-96b8-81231035a534/5b044237-0ef5-4c6d-b743-3e113223aac9#wiki"
-            data-readdy="true"
-            class="text-white hover:text-primary transition-colors py-2"
-            >Wiki</a
-          >
-          <a
-            href="https://readdy.ai/home/a30a5316-c033-4f23-96b8-81231035a534/5b044237-0ef5-4c6d-b743-3e113223aac9#server"
-            data-readdy="true"
-            class="text-white hover:text-primary transition-colors py-2"
-            >Server Info</a
-          >
-          <a
-            href="https://readdy.ai/home/a30a5316-c033-4f23-96b8-81231035a534/5b044237-0ef5-4c6d-b743-3e113223aac9#kontakt"
-            data-readdy="true"
-            class="text-white hover:text-primary transition-colors py-2"
-            >Kontakt</a
+            >Datenschutz</a
           >
         </div>
       </nav>
@@ -179,7 +161,7 @@
             Nutzungsbedingungen und Regelwerk für unseren Minecraft-Server
           </p>
           <a
-            href="index.html"
+            href="./"
             data-readdy="true"
             class="minecraft-btn text-white px-6 py-3 text-xl !rounded-button whitespace-nowrap flex items-center"
           >

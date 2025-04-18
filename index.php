@@ -166,7 +166,7 @@ border: 3px solid #3a3a3a;
 <!-- Header mit Navigation -->
 <header class="bg-[#1a1a1a] border-b-4 border-primary sticky top-0 z-50">
 <div class="container mx-auto px-4 py-3 flex justify-between items-center">
-<a href="#" class="text-3xl font-['Pacifico'] text-white">Nevtrox</a>
+<a href="./" class="text-3xl font-['Pacifico'] text-white">Nevtrox</a>
 <!-- Mobile Menu Button -->
 <button id="mobile-menu-button" class="lg:hidden w-10 h-10 flex items-center justify-center text-white">
 <i class="ri-menu-line ri-2x"></i>
@@ -177,8 +177,7 @@ border: 3px solid #3a3a3a;
 <a href="#bewerbung" class="text-white hover:text-primary transition-colors">Bewerbung</a>
 <a href="#wiki" class="text-white hover:text-primary transition-colors">Wiki</a>
 <a href="#server" class="text-white hover:text-primary transition-colors">Server Info</a>
-<a href="#kontakt" class="text-white hover:text-primary transition-colors">Kontakt</a>
-<a href="login.html">
+<a href="login.php">
   <button 
     class="minecraft-btn text-white px-4 py-2 text-sm inline-block !rounded-button whitespace-nowrap bg-[#5c6bc0]">
     <i class="ri-gamepad-line mr-2"></i> Login
@@ -194,7 +193,12 @@ border: 3px solid #3a3a3a;
 <a href="#bewerbung" class="text-white hover:text-primary transition-colors py-2">Bewerbung</a>
 <a href="#wiki" class="text-white hover:text-primary transition-colors py-2">Wiki</a>
 <a href="#server" class="text-white hover:text-primary transition-colors py-2">Server Info</a>
-<a href="#kontakt" class="text-white hover:text-primary transition-colors py-2">Kontakt</a>
+<a href="login.php">
+  <button 
+    class="minecraft-btn text-white px-4 py-2 text-sm inline-block !rounded-button whitespace-nowrap bg-[#5c6bc0]">
+    <i class="ri-gamepad-line mr-2"></i> Login
+  </button>
+</a>
 </div>
 </nav>
 </header>
@@ -203,8 +207,8 @@ border: 3px solid #3a3a3a;
 <div class="absolute inset-0 bg-black bg-opacity-50"></div>
 <div class="container mx-auto px-4 relative z-10">
 <div class="max-w-2xl">
-<h1 class="text-5xl md:text-6xl font-bold mb-4 text-white">Unser Minecraft Team</h1>
-<p class="text-xl md:text-2xl mb-8 text-gray-200">Entdecke die Köpfe hinter unserem Minecraft-Server und werde Teil unserer Community!</p>
+<h1 class="text-5xl md:text-6xl font-bold mb-4 text-white">Willkommen bei Nevtrox.de</h1>
+<p class="text-xl md:text-2xl mb-8 text-gray-200">Endeckt unseren Einfach vantastischen Server!</p>
 <div class="flex flex-wrap gap-4">
 <a href="#team" class="minecraft-btn text-white px-6 py-3 text-xl !rounded-button whitespace-nowrap">Team kennenlernen</a>
 <a href="#bewerbung" class="minecraft-btn text-white px-6 py-3 text-xl !rounded-button whitespace-nowrap">Jetzt bewerben</a>
@@ -526,7 +530,7 @@ border: 3px solid #3a3a3a;
 <div class="w-6 h-6 flex items-center justify-center mr-2 text-primary">
 <i class="ri-global-line"></i>
 </div>
-<span><strong>Standort:</strong> Deutschland (Frankfurt)</span>
+<span><strong>Standort:</strong> - </span>
 </li>
 <li class="flex items-start">
 <div class="w-6 h-6 flex items-center justify-center mr-2 text-primary">
@@ -618,7 +622,7 @@ border: 3px solid #3a3a3a;
 <p>2. Das Serverteam behält sich das Recht vor, Spieler ohne Vorwarnung vom Server zu verweisen.</p>
 <p>3. Gekaufte Ingame-Items können nicht zurückerstattet werden.</p>
 <p>4. Der Server kann jederzeit ohne Vorankündigung gewartet oder aktualisiert werden.</p>
-<a href="AGB.html" class="text-primary hover:underline">Vollständige AGB lesen</a>
+<a href="AGB.php" class="text-primary hover:underline">Vollständige AGB lesen</a>
 </div>
 </div>
 <!-- Impressum -->
@@ -652,7 +656,7 @@ border: 3px solid #3a3a3a;
 <p>2. Bewerbungsdaten werden nur für den Bewerbungsprozess verwendet.</p>
 <p>3. Ihre Daten werden nicht an Dritte weitergegeben.</p>
 <p>4. Sie haben jederzeit das Recht auf Auskunft, Berichtigung und Löschung Ihrer Daten.</p>
-<a href="datenschut.html" class="text-primary hover:underline">Vollständige Datenschutzerklärung lesen</a>
+<a href="datenschut.php" class="text-primary hover:underline">Vollständige Datenschutzerklärung lesen</a>
 </div>
 </div>
 </div>
