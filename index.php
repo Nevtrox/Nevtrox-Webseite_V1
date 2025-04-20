@@ -208,7 +208,7 @@ border: 3px solid #3a3a3a;
 <div class="container mx-auto px-4 relative z-10">
 <div class="max-w-2xl">
 <h1 class="text-5xl md:text-6xl font-bold mb-4 text-white">Willkommen bei Nevtrox.de</h1>
-<p class="text-xl md:text-2xl mb-8 text-gray-200">Endeckt unseren Einfach vantastischen Server!</p>
+<p class="text-xl md:text-2xl mb-8 text-gray-200">Endeckt unseren Einfach Fantastischen Server!</p>
 <div class="flex flex-wrap gap-4">
 <a href="#team" class="minecraft-btn text-white px-6 py-3 text-xl !rounded-button whitespace-nowrap">Team kennenlernen</a>
 <a href="#bewerbung" class="minecraft-btn text-white px-6 py-3 text-xl !rounded-button whitespace-nowrap">Jetzt bewerben</a>
@@ -229,32 +229,29 @@ border: 3px solid #3a3a3a;
 <div class="mb-4 aspect-square overflow-hidden !rounded-lg" style="background-image: url('https://mc-heads.net/avatar/Rewan11/500/nohelm.png'); background-size: cover; background-position: center;"></div>
 <h3 class="text-2xl font-bold mb-2 text-primary">Rewan11</h3>
 <p class="text-lg font-semibold mb-2 text-secondary">Owner</p>
-<p class="text-gray-300">Gründer des Serversfür alle administrativen Entscheidungen. Spielt Minecraft seit der Beta und liebt komplexe Redstone-Konstruktionen.</p>
 </div>
 <!-- Team Member 2 -->
 <div class="team-card p-6 !rounded-lg">
 <div class="mb-4 aspect-square overflow-hidden !rounded-lg" style="background-image: url('https://mc-heads.net/avatar/NiceRecord/500/nohelm.png'); background-size: cover; background-position: center;"></div>
 <h3 class="text-2xl font-bold mb-2 text-primary">NiceRecord</h3>
 <p class="text-lg font-semibold mb-2 text-secondary">Owner</p>
-<p class="text-gray-300">Kümmert sich um alle Community-Anliegen und organisiert Events. Bekannt für ihre kreativen Bauideen und freundliche Art bei der Konfliktlösung.</p>
 </div>
 <!-- Team Member 3 -->
 <div class="team-card p-6 !rounded-lg">
 <div class="mb-4 aspect-square overflow-hidden !rounded-lg" style="background-image: url('https://mc-heads.net/avatar/MysticNich/500/nohelm.png'); background-size: cover; background-position: center;"></div>
 <h3 class="text-2xl font-bold mb-2 text-primary">MysticNich</h3>
 <p class="text-lg font-semibold mb-2 text-secondary">Developer</p>
-<p class="text-gray-300">Zuständig für unseren Discord Bot.</p>
 </div>
 <!-- Team Member 4 -->
 <div class="team-card p-6 !rounded-lg">
-<div class="mb-4 aspect-square overflow-hidden !rounded-lg" style="background-image: url('samyx300.jpg'); background-size: cover; background-position: center;"></div>
+<div class="mb-4 aspect-square overflow-hidden !rounded-lg" style="background-image: url('https://mc-heads.net/avatar/Samyx300/500/nohelm.png'); background-size: cover; background-position: center;"></div>
 <h3 class="text-2xl font-bold mb-2 text-primary">Samyx300</h3>
 <p class="text-lg font-semibold mb-2 text-secondary">Developer</p>
 <p class="text-gray-300">Verantwortlich für Server-Bauprojekte und Spawn-Gestaltung. Seine mittelalterlichen Burgen und detaillierten Städte sind legendär in der Community.</p>
 </div>
 <!-- Team Member 5 -->
 <div class="team-card p-6 !rounded-lg">
-<div class="mb-4 aspect-square overflow-hidden !rounded-lg" style="background-image: url('lukashasmeta.jpg'); background-size: cover; background-position: center;"></div>
+<div class="mb-4 aspect-square overflow-hidden !rounded-lg" style="background-image: url('https://mc-heads.net/avatar/Lukashasmeta/500/nohelm.png'); background-size: cover; background-position: center;"></div>
 <h3 class="text-2xl font-bold mb-2 text-primary">Lukashasmeta</h3>
 <p class="text-lg font-semibold mb-2 text-secondary">Developer</p>
 <p class="text-gray-300">Überwacht die Einhaltung der Serverregeln und hilft bei Konflikten. Bekannt für seine faire und geduldige Art bei der Moderation des Chats.</p>

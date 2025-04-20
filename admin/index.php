@@ -1,3 +1,25 @@
+<?php include '../app/db.php'; ?>
+
+<?php
+
+if(isset($_POST['login'])) {
+  $check_user = $mysql->db()->prepare("SELECT * FROM `users` WHERE `username` = :username AND `password` = :password AND `rank` = 'admin'");
+  $check_user->execute(array(":username" => $_POST['mc_name'], ":password" => $_POST['password']));
+
+  if($check_user->rowCount() == null) {
+    echo("Username or password invalid.");
+  } else {
+    $sessToken = rand(10000000000000,99999999999999999);
+
+    $set_session = $mysql->db()->prepare("UPDATE `users` SET `session` = :session WHERE `username` = :username");
+    $set_session->execute(array(":session" => $sessToken, ":username" => $_POST['mc_name']));
+
+    setcookie('session', $sessToken, time()+864000, '/');
+    echo('<meta http-equiv="refresh" content="0; url='.$url.'admin_login.php">');
+  }
+}
+
+?>
 <!DOCTYPE html>
 <html lang="de">
 <head>
@@ -35,7 +57,7 @@
   <main class="flex justify-center items-center min-h-screen px-4">
     <div class="w-full max-w-md bg-[#2c2c2c] border border-[#3a3a3a] p-6 rounded-xl shadow-lg">
       <h2 class="text-2xl mb-4 text-center text-primary font-pacifico">Admin Login</h2>
-      <form method="post" action="admin_login.php" class="space-y-4">
+      <form method="post" class="space-y-4">
         <div>
           <label for="mc_name" class="block mb-1">Admin-Name</label>
           <input type="text" id="mc_name" name="mc_name" required 
@@ -55,10 +77,6 @@
           <i class="ri-login-circle-line mr-2"></i> Einloggen
         </button>
       </form>
-
-      <div class="mt-6 text-center text-sm text-gray-400">
-        <p>Hast du noch kein Konto? <a href="register.php" class="text-primary hover:underline">Jetzt registrieren</a></p>
-      </div>
     </div>
   </main>
 

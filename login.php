@@ -15,7 +15,7 @@ if(isset($_POST['login'])) {
     $set_session->execute(array(":session" => $sessToken, ":username" => $_POST['mc_name']));
 
     setcookie('session', $sessToken, time()+864000, '/');
-    echo('<meta http-equiv="refresh" content="0; url='.$url.'profil">');
+    echo('<meta http-equiv="refresh" content="0; url='.$url.'profil.php">');
   }
 }
 

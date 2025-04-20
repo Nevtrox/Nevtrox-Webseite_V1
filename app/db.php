@@ -7,9 +7,9 @@ class db
     {
 
         $dbHost = "web.ecso.space";
-        $dbName = "silas";
-        $dbUser = "silas";
-        $dbPass = 'vPibF5Li5AQYtqFHfkgm';
+        $dbName = "Haupt";
+        $dbUser = "Haupt";
+        $dbPass = '7LkHH1ivH195WCapz0Ay';
 
         $db = new PDO('mysql:host=' . $dbHost . ';charset=utf8;dbname=' . $dbName, $dbUser, $dbPass);
         $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
